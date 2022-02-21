@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.container {
+  padding: 10px 0;
+  width: 1140px;
+  margin: 0 auto;
+}
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-navigation {
+  background-color: #174180;
+  color: #fff;
+}
+.menu {
+  padding: 0 200px;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+.menu-item {
+  display: inline-block;
+}
+.menu-link {
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.header-logo {
+  float: left;
+}
